@@ -32,7 +32,7 @@ week17_scores = fbdata[16]
 
 #print(week1_scores)
 for i in range(0, len(week1_scores)):
-    print(week1_scores[i])  n
+    print(week1_scores[i])
 
 #remove self comparisons
 mask = week1_scores[:, None] > week1_scores
