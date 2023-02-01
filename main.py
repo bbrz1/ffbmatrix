@@ -1,4 +1,4 @@
-# Fantasy matrix
+# Fantasy football weekly wins/losses matrix
 
 import numpy as np
 
@@ -35,7 +35,7 @@ week17_scores = fbdata[16]
 #for i in range(0, len(week1_scores)):
 #    print(week1_scores[i])
 
-
+#Compare scores
 mask = week1_scores[:, None] > week1_scores
 #print(mask[~np.eye(week1_scores.size, dtype=bool)])
 
@@ -79,7 +79,7 @@ tm8_wk2_rec = wk2_recs[7]
 tm9_wk2_rec = wk2_recs[8]
 tm10_wk2_rec = wk2_recs[9]
 
-#Print rec table by week
+#Print record table by week
 print (tm1_wk1_rec)
 print (tm2_wk1_rec)
 print (tm3_wk1_rec)
@@ -106,7 +106,7 @@ print (tm10_wk2_rec)
 
 print("")
 
-#Count wins and losses for week 1
+#Count wins and losses for each team for week 1
 tm1_wk1_wins = np.count_nonzero(tm1_wk1_rec)
 tm1_wk1_losses = np.size(tm1_wk1_rec) - np.count_nonzero(tm1_wk1_rec)
 
