@@ -1,6 +1,6 @@
 # ffbmatrix
 
-Concept
+Concept:
 Generates win/loss record for Fantasy Football teams as if teams compete vs. all other teams in the league each week in order to expand upon a team's performance. 
 
 Progress:
