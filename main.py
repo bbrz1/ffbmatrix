@@ -8,6 +8,7 @@ import numpy as np
 #
 #np.savetxt('fbdata.csv', fbdata, delimiter=",", fmt='%8.3f')
 
+#Entire season of data, in reality data would be accumulate week by week
 fbdata = np.loadtxt("fbdata.csv", delimiter=",", dtype=float)
 
 print(fbdata)
